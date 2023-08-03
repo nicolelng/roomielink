@@ -392,6 +392,11 @@ section.process.grey {
     padding: 5vh 0;
 }
 
+section.process .card-heading {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
 .process p {
     line-height: 1.4;
     font-size: 20px;
@@ -440,7 +445,7 @@ section.demo .section-heading {
 footer {
     background-color: var(--light-gray);
     text-align: center;
-    padding: 5vh 0;
+    padding: 3vh 0;
 }
 
 footer p {
@@ -517,7 +522,15 @@ footer a:link, a:visited, a:active {
         font-size: 20px;
     }
 
+    section.about {
+        margin-bottom: 10vh;
+    }
+
     /* section 2: how it works */
+    section.how {
+        margin-bottom: 0;
+    }
+
     section.how .card-heading {
         font-size: 28px;
     }
@@ -537,5 +550,10 @@ footer a:link, a:visited, a:active {
 
     section.process ul {
         font-size: 24px;
+    }
+
+    /* footer */
+    footer {
+        padding: 1vh 0;
     }
 }
