@@ -1,57 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>RoomieLink | IAT334 Final Project</title>
-        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
 
-        <nav>
-            <a class="nav-title" href="index.html">
-                <h1><img src="images/icon.png" alt=""><span>RoomieLink</span></h1>
-            </a>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoomieLink | IAT334 Final Project</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css" />
+</head>
 
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#howitworks">How It Works</a></li>
-                <li><a href="#process">Process</a></li>
-                <li><a href="#appdemo">App Demo</a></li>
-            </ul>
-        </nav>
+<body>
 
-        <main>
+    <nav>
+        <a class="nav-title" href="#home">
+            <h1><img src="images/icon.png" alt=""><span>RoomieLink</span></h1>
+        </a>
 
-            <!-- hero -->
-            <header class="hero">
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#howitworks">How It Works</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#appdemo">App Demo</a></li>
+        </ul>
+    </nav>
 
-                <!-- CTA -->
-                <div class="cta">
-                    <h1 class="hero-heading">Helping students find shared accommodations</h1>
-                    <h2 class="hero-subheading">Find your ideal roommate and save on rent</h2>
+    <main>
+
+        <!-- hero -->
+        <header class="hero" id="home">
+
+            <!-- CTA -->
+            <div class="cta">
+                <h1 class="hero-heading">Helping students find shared accommodations</h1>
+                <h2 class="hero-subheading">Find your ideal roommate and save on rent</h2>
+            </div>
+
+            <!-- app screen marquee -->
+            <div class="marquee">
+                <div class="track">
+                    <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
+                    <img class="marquee-image" src="images/mockups/bills.png" alt="RoomieLink home screen">
+                    <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
+                    <img class="marquee-image" src="images/mockups/bills.png" alt="RoomieLink home screen">
+                    <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
+                    <img class="marquee-image" src="images/mockups/bills.png" alt="RoomieLink home screen">
+                    <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
+                    <img class="marquee-image" src="images/mockups/bills.png" alt="RoomieLink home screen">
+                    <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
                 </div>
+            </div>
 
-                <!-- app screen marquee -->
-                <div class="marquee">
-                    <div class="track">
-                        <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
-                        <img class="marquee-image" src="images/mockups/bills.png" alt="RoomieLink home screen">
-                        <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
-                        <img class="marquee-image" src="images/mockups/bills.png" alt="RoomieLink home screen">
-                        <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
-                        <img class="marquee-image" src="images/mockups/bills.png" alt="RoomieLink home screen">
-                        <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
-                        <img class="marquee-image" src="images/mockups/bills.png" alt="RoomieLink home screen">
-                        <img class="marquee-image" src="images/mockups/home.png" alt="RoomieLink home screen">
+        </header>
+
+        <!-- section 1: about -->
+        <section id="about" class="full grey about">
+            <div class="section-wrapper">
+                <article>
+                    <h1 class="section-heading">Finding housing can be difficult for students</h1>
+                    <p>Limited student income makes affordable housing scarce due to high demand and competition. Living
+                        with a roommate significantly eases costs — but it’s not always easy to find the right roommate.
+                    </p>
+                </article>
+                <div class="about-img-wrapper">
+                    <img src="images/circles.png" alt="Two males">
+                </div>
+            </div>
+        </section>
+
+        <!-- section 2: how it works -->
+        <section id="howitworks" class="full how">
+            <div class="section-wrapper">
+
+                <h1 class="section-heading">RoomieLink helps students find their ideal roommate and save money</h1>
+
+                <!-- feature cards -->
+                <div class="how-cards">
+                    <div class="card how-1">
+                        <h1 class="card-heading">Set your roommate preferences</h1>
+                        <p>Specify your interests, lifestyle and other living preferences for a more accurate match</p>
+                        <div class="img-wrapper">
+                            <img src="images/mockups/bills.png" alt="Bills screen">
+                        </div>
+                    </div>
+                    <div class="card how-2">
+                        <h1 class="card-heading">Connect with a suitable roommate</h1>
+                        <p>Find like-minded students to room with and save big on accommodation expenses</p>
+                        <div class="img-wrapper">
+                            <img src="images/mockups/bills.png" alt="Bills screen">
+                        </div>
+                    </div>
+                    <div class="card how-3">
+                        <ul>
+                            <li>
+                                <h1 class="card-heading">Explore the listings</h1>
+                                <p>Simplify your daily commute and connect with schoolmates as roommates</p>
+                            </li>
+                            <li>
+                                <h1 class="card-heading">Find your perfect roommate in the listings</h1>
+                                <p>Explore narrowed suitable listings and find the most compatible roommate for you</p>
+                            </li>
+                            <li>
+                                <h1 class="card-heading">Locate the perfect place</h1>
+                                <p>Find your ideal place located near transit, malls, grocery stores, and essential amenities.</p>
+                            </li>
+                        </ul>
+                        <div class="img-wrapper">
+                            <img src="images/mockups/bills.png" alt="Bills screen">
+                        </div>
                     </div>
                 </div>
 
-            </header>
+                <h1 class="section-heading">Manage your shared accommodations</h1>
 
-        </main>
-        
-        <script src="scripts.js"></script>
-    </body>
+                <!-- Manage expenses cards -->
+                <div class="manage-cards">
+                    <div class="card manage-1">
+                        <h1 class="card-heading">View your current roommates</h1>
+                        <p>Manage your rental with your current roomies in-app</p>
+                        <div class="img-wrapper"><img src="images/cards/card1.png" alt="Card 1"></div>
+                    </div>
+                    <div class="card manage-2">
+                        <h1 class="card-heading">Manage shared rental costs</h1>
+                        <p>Keep track of each roommate’s rent payments</p>
+                        <div class="img-wrapper"><img src="images/cards/card2.png" alt="Card 2"></div>
+                    </div>
+                    <div class="card manage-3">
+                        <h1 class="card-heading">Track shared bills and purchases</h1>
+                        <p>Monitor shared expenses and owed money</p>
+                        <div class="img-wrapper"><img src="images/cards/card3.png" alt="Card 3"></div>
+                    </div>
+                    <div class="card manage-4">
+                        <h1 class="card-heading">Store shared documents</h1>
+                        <p>Easily store and access shared documents</p>
+                        <div class="img-wrapper"><img src="images/cards/card4.png" alt="Card 4"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- section 3: process -->
+        <section id="process" class="full process">
+            <div class="section-wrapper">
+                <h1 class="section-heading">Design Process</h1>
+
+                <h1 class="card-heading">Step 1: Researching a Design Domain</h1>
+                <p>
+                    We began our research in the domain of international students. We conducted interviews on six international students who attend a post-secondary school in Vancouver. We asekd respondents questions regarding:
+                </p>
+                <ul>
+                    <li>Their personal background and field of study</li>
+                    <li>Their concerns about school life, both in and out of school</li>
+                    <li>Tools or apps they use, and their frustrations with them</li>
+                    <li>Methods of socializing and connecting within the student community</li>
+                    <li>Meaningful advice they've received throughout their school life</li>
+                    <li>Their strategies for searching for jobs, internships, or co-op positions</li>
+                    <li>Their frustrations with administrative processes in academia</li>
+                </ul>
+                <p>
+                    Our research revealed that respondents faced challenges finding accessible and affordable housing in Vancouver due to rising prices and high demand from international students, resulting in limited options within students' price range.
+                </p>
+            </div>
+        </section>
+
+        <section class="full grey process">
+            <div class="section-wrapper">
+                <h1 class="card-heading">Step 2: Ideation and Interaction Wireflows</h1>
+                <p>
+                    Based on our research, we developed an idea for a roommate and housing finder app that would allow students to match with appropriate housing and compatible roommates. We then defined the main flows of the app and created grey-box wireflows for them.
+                </p>
+            </div>
+        </section>
+
+        <section class="full process">
+            <div class="section-wrapper">
+                <h1 class="card-heading">Step 3: Interactive Prototype and Style Guide</h1>
+                <p>
+                    In this stage, we began developing a visual brand for our app. We created a style guide and mock-ups for our interface, in addition to creating an interactive prototype.
+                </p>
+                <img src="images/styleguide.jpg" alt="Style Guide">
+            </div>
+        </section>
+
+        <section class="full grey process last">
+            <div class="section-wrapper">
+                <h1 class="card-heading">Step 4: User Testing</h1>
+                <p>
+                    After developing our interactive prototype, we began user testing on six potential primary-users of our app. The feedback we received were an equal mix of both user-experience and efficiency issues.
+                </p>
+                <ul>
+                    <li>Some buttons and UI elements are not obvious that they can be clicked.</li>
+                    <li>Besides filtering listings by recency and price, it would be nice if we could filter by roommate preferences within the listing results as well.</li>
+                    <li>For privacy purposes, it may be enough to have users list only their first name.</li>
+                    <li>Some buttons are not working in the demo.</li>
+                    <li>There is no “previous” option when choosing my ideal roommate.</li>
+                    <li>The search bar is not very practical, and the move-in date for renting is a bit strange.</li>
+                    <li>Most houses are rented starting from a specific month, not a specific date.</li>
+                    <li>Text is too small and not legible on some pages.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- section 4: app demo -->
+        <section id="appdemo" class="full demo">
+            <div class="section-wrapper">
+                <h1 class="section-heading">Ready to find your perfect roommate?</h1>
+                <a href="#" class="demo-btn">Try our prototype</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="section-wrapper">
+                <p class="copy">&copy; 2023 RoomieLink</p>
+                <p>Designed by Nicole Ling, Michelle Dong, Lisa Xu, DD Shen and Jieensi Aibaer</p>
+                <p>View code on <a href="https://github.com/nicolelng/roomielink" target="_blank">GitHub</a>.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+
 </html>
