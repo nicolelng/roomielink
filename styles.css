@@ -201,7 +201,7 @@ header.hero {
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 15s linear infinite;
+    animation: marquee 12s linear infinite;
     height: 50vh;
     width: 100vw;
     max-width: 100%;
