@@ -301,7 +301,7 @@ section.how .how-cards .card .img-wrapper {
     justify-content: center;
 }
 
-section.how .how-cards .card img {
+section.how .how-cards .card video {
     width: 70%;
 }
 
@@ -338,7 +338,7 @@ section.how .how-cards .card.how-3 .img-wrapper {
     align-items: center;
 }
 
-section.how .how-cards .card.how-3 .img-wrapper img {
+section.how .how-cards .card.how-3 .img-wrapper video {
     width: 80%;
 }
 
